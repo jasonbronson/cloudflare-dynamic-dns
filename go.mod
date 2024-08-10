@@ -1,4 +1,4 @@
-module jasonbronson/google-domain-dynamic-dns-updater
+module jasonbronson/cloudflare-dynamic-dns
 
 go 1.22.5
 

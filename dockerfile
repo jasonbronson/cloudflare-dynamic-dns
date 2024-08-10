@@ -7,6 +7,6 @@ ADD . /app
 
 ENV GO111MODULE=on
 
-RUN GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o ./dnsupdate /app/dnsupdate.go
+RUN GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o ./main /app/main.go
 
-CMD ["/app/dnsupdate"]
+CMD ["/app/main"]

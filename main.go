@@ -1,7 +1,7 @@
 package main
 
 import (
-	"jasonbronson/google-domain-dynamic-dns-updater/cloudflare"
+	"jasonbronson/cloudflare-dynamic-dns/cloudflare"
 	"log"
 	"net/http"
 	"os"
