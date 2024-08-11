@@ -18,6 +18,7 @@ var client *http.Client
 func main() {
 	c := cron.New()
 
+	interval = os.Getenv("CRON_INTERVAL")
 	if interval == "" {
 		interval = "*/59 * * * *"
 	}
